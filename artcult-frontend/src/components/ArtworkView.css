@@ -1,0 +1,79 @@
+/* src/components/ArtworkView.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.artwork-view {
+    margin: 2rem;
+}
+
+.artwork-view-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .artwork-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .artwork-image img {
+    /* max-width: auto; */
+    /* height: 100%; */
+    width: 100%;
+    height: auto;
+  }
+  
+  .artwork-details {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 3rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .artwork-details h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .artwork-details p{
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  
+  .rating {
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .buy-now,
+  .add-to-cart {
+    padding: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .buy-now {
+    background-color: gold;
+  }
+
+  .add-to-cart{
+    background-color: black;
+    color: white;
+  }
+
+  .star-rating-view{
+    font-size: 2rem;
+  }
+  
+  /* Additional styling can be added as needed */
+  

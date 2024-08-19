@@ -1,0 +1,49 @@
+/* src/components/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  .logo img {
+    width: auto;
+    height: 35px;
+  }
+  
+  .menu {
+    flex: 0.95;  /* Add this line to make the menu take up the available space */
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;  /* Center the menu items horizontally */
+    gap: 5%;
+  }
+  
+  .menu li {
+    margin-right: 1rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .user-options {
+    margin-left: auto;
+    
+  }
+  
+  #signup {
+    text-decoration: none;
+    color: white;
+  }
+  
